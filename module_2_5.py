@@ -1,6 +1,12 @@
 def get_matrix(n, m, value):
 
     matrix = []
+    if  n <= 0:
+        return(matrix)
+    elif m <= 0:
+        return(matrix)
+    elif value <= 0:
+        return(matrix)
     for i in range(n):
         matrix.append([])
         for j in range(m):
